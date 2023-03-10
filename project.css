@@ -1,0 +1,48 @@
+body{
+background-color:black;
+}
+
+
+.g{margin:100px;
+width:50%;
+height:50%;
+border:2px solid black;
+border-radius:10px;
+background-color:skyblue;
+
+}
+
+h1{color:blue;
+   text-shadow:3px 2px black;
+}
+
+.box{text-align:center;
+margin:px;
+padding:0px;
+}
+
+.bn{
+    background-color:red;
+    height:50px;
+    width:200px;    
+    color:white;
+    text-decoretion:none;
+    border-radius:15px;
+}
+
+#name{background-color:pink;
+    height:50px;
+    width:500px;
+    text-decoretion:none;
+    border-radius:15px
+}
+
+#pass{background-color:pink;
+    height:50px;
+    width:500px;
+    text-decoretion:none;
+    border-radius:15px
+}
+
+
+
