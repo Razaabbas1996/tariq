@@ -1,0 +1,33 @@
+<doctype html>
+<html>
+<head>
+<titel>netflix-india</titel>
+
+<link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+<center><div class="g">
+<h1>WELCOME TO LOGIN</h1>
+<div class="box">
+<input type="email" id="name" placeholder="email"><br><br>
+<input type="password" id="pass" placeholder="password"><br><br>
+<button onclick="login()" class="bn">SING IN</button>
+
+</div>
+</div>
+</center>
+
+<script type="text/javascript">
+function login()
+{
+var name=document.getElementById("name").value;
+var password=document.getElementById("pass").value;
+if(name=="RAZA" & password=="123")
+{document.write("welcome to my project");
+}else
+{document.write("Details Incorrect");
+}
+}
+</script>
+</body>
+</html>
